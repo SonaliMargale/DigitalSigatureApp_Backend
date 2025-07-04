@@ -1,3 +1,6 @@
 
--> installed libraries express cors mongoose nodemon dotenv etc
--> created server 
+1.Upload PDFs with Multer
+2.Save and fetch pending signatures
+3.Embed typed or drawn signatures using pdf-lib
+4.Serve signed PDFs for download
+
