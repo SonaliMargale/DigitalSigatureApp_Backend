@@ -3,7 +3,7 @@ import express from 'express';
 import {login, logout,register,sendVerifyOtp,verifyEmail,isAuthenticated,sendResetOtp,resetPassword} from '../controllers/authController.js';
 import userAuth from '../middleware/userAuth.js';
 
-//authRouter = /api/auth/
+
 const authRouter = express.Router()
 
 authRouter.post('/register',register)

@@ -5,9 +5,6 @@ import userModel from "../models/userModel.js";
 export const getUserData = async (req,res) => {
     try{
         const {userId} = req.query;
-
-
-
         
         const user = await userModel.findById(userId)
         if(!user){
